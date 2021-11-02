@@ -7,3 +7,8 @@ For npm, use:
 ```
   npm update
 ```
+
+## Vue.js
+
+1. Move into `vue-templater/`
+1. Run `yarn serve`
