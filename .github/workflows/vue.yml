@@ -4,7 +4,7 @@ name: Vue.js
 
 on:
   push:
-    branches: [ main ]
+    branches: [ vue ]
 
   workflow_dispatch:
 
@@ -21,6 +21,5 @@ jobs:
       - name: Build Vue app.
         working-directory: vue-templater
         run: |
-          ls
-          ls ..
+          yarn install
           yarn build --dest ../docs/vue/
